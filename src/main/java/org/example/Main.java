@@ -16,6 +16,7 @@ public class Main {
         new Human("My","my@gmail.com","0276154244","HCM"),
         new Human("Linh","linh@gmail.com","0127946185","HCM")
         );
+    
     // create new list to map data filtered
     List<Human> listFilter =
     listHuman.stream().filter(humans -> humans.getEmail().startsWith("m") ).collect(Collectors.toList());
