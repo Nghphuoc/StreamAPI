@@ -32,5 +32,4 @@ public class Main {
     List<Human> distinct = listHuman.stream().distinct().collect(Collectors.toList());
     distinct.forEach(System.out::println);
   }
-
 }
